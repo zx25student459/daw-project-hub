@@ -28,3 +28,29 @@ footer {
     font-size: 0.9em;
     color: #666;
 }
+
+/* Mejoras de tipografía y espaciado general */
+main p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 5px solid transparent;
+}
+
+/* Borde de color diferente para cada párrafo */
+.parrafo-desarrollo {
+    border-left-color: #3498db; /* Azul */
+    background-color: #f8f9fa;
+}
+
+.parrafo-despliegue {
+    border-left-color: #2ecc71; /* Verde */
+    background-color: #f8f9fa;
+}
+
+.parrafo-colaboracion {
+    border-left-color: #e74c3c; /* Rojo */
+    background-color: #f8f9fa;
+}

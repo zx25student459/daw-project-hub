@@ -1,0 +1,10 @@
+# Archivos de registro / logs
+*.log
+
+# Configuración de entorno y notas
+.env
+notas-temporales.txt
+
+# Carpetas del entorno de desarrollo / editores
+.vscode/
+.idea/

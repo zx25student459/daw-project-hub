@@ -54,3 +54,12 @@ main p {
     border-left-color: #e74c3c; /* Rojo */
     background-color: #f8f9fa;
 }
+
+main h3 {
+    color: #2c3e50;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}

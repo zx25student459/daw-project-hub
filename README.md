@@ -64,3 +64,5 @@ Para visualizar la página web en tu entorno local:
 
 1. Clona el repositorio o descarga el código fuente.
 2. Abre el archivo `index.html` directamente en cualquier navegador web o utiliza una extensión de servidor local como *Live Server* en VS Code.
+
+## Editando desde GitHub

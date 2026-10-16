@@ -66,3 +66,11 @@ Para visualizar la página web en tu entorno local:
 2. Abre el archivo `index.html` directamente en cualquier navegador web o utiliza una extensión de servidor local como *Live Server* en VS Code.
 
 ## Editando desde GitHub
+
+## Diferencia entre Git Fetch y Git Pull
+
+- **¿Qué hizo `git fetch`?:** Descargó los nuevos commits y referencias del repositorio remoto (`origin/main`) a la base de datos local de Git, pero sin modificar ningún archivo de nuestro directorio de trabajo ni alterar nuestra rama `main` local.
+- **¿Qué hizo `git pull`?:** Si hubiéramos ejecutado `git pull`, habría realizado automáticamente dos acciones consecutivas en un solo paso: un `git fetch` (descargar datos) seguido de un `git merge` (integrar cambios en la rama local).
+- **¿Por qué `git fetch` permite revisar antes de integrar?:** Porque al separar la descarga de la fusión, podemos utilizar comandos como `git diff main..origin/main` o `git log main..origin/main` para inspeccionar con seguridad qué código ha escrito otra persona antes de incorporarlo a nuestro trabajo, evitando posibles conflictos imprevistos.
+- **Relación entre `pull`, `fetch` y la integración posterior:** La fórmula fundamental de Git es:  
+  `git pull = git fetch + git merge` (o `git rebase`).
